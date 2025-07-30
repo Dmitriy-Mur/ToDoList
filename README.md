@@ -1,7 +1,7 @@
 # ToDoList App
 
 A simple task management app built with Vue 3, TypeScript, and Pinia.
-
+![Screenshot](https://github.com/Dmitriy-Mur/ToDoList/blob/main/ToDoList.png)
 ## Prerequisites
 
 - Node.js
