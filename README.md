@@ -7,7 +7,7 @@ A simple task management app built with Vue 3, TypeScript, and Pinia.
 - Node.js
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Dmitriy-Mur/ToDoList.git
 cd ToDoList
 npm install
 npm run dev
