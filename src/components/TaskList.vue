@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import TaskItem from './TaskItem.vue'
-import { useTaskStore } from '@/stores/taskStore'
+import TaskItem from '@components/TaskItem.vue'
+import { useTaskStore } from '@stores/taskStore'
 
 const taskStore = useTaskStore()
 const newTaskTitle = ref('')
