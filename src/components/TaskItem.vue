@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { Task } from '@types/task'
+import type { Task } from '@/types/task'
 
 const props = defineProps<{
   task: Task
