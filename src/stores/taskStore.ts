@@ -35,7 +35,6 @@ const saveToStorage = (tasks: Task[]): void => {
 export const useTaskStore = defineStore('task', {
   state: (): { tasks: Task[] } => {
     const tasks = getTasksFromStorage()
-    // Обновляем nextId на основе существующих задач
     if (tasks.length > 0) {
       nextId = Math.max(...tasks.map((t) => t.id)) + 1
     }
